@@ -3,7 +3,6 @@ import uuid
 from decimal import Decimal
 
 # Initialize a DynamoDB client
-# Initialize # Initialize DynamoDB client
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('incremental_load_configurations')
 
